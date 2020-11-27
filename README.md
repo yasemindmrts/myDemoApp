@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.com/yasemindmrts/myDemoApp.svg?branch=master)](https://travis-ci.com/yasemindmrts/myDemoApp)
+[![Build Status](https://travis-ci.com/yasemindmrts/myDemoApp.svg?branch=main)](https://travis-ci.com/yasemindmrts/myDemoApp)
