@@ -23,6 +23,7 @@ public class App {
 public static int sum(ArrayList<Integer> array,Integer t,Integer e){ 
 if(array==null | array.size()<2) return 0;
 if(t==null | e==null) return 0;
+if(t>=array.size() |  e>=array.size()) return 0;
 for(int i: array)
     if(i<=0) return 0;
 return array.get(t)+array.get(e);
