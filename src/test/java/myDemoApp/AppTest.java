@@ -37,12 +37,7 @@ int c=0;
 int k=App.sum(array, 0, 1);
 if(c==k) assertTrue(true);
 }
-@Test
-public void testNull(){
-int c=0;
-int k=App.sum(null,0,1);
-if(c==k) assertTrue(true);
-}
+
 public void checkIndicesPositive(){
     int c=0;
     ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1,2,3,4));
