@@ -43,4 +43,25 @@ int c=0;
 int k=App.sum(null,0,1);
 if(c==k) assertTrue(true);
 }
+public void checkIndicesPositive(){
+    int c=0;
+    ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1,2,3,4));
+    int k=App.sum(array,-1,-3);
+    if(c==k) assertTrue(true);
+    
+}
+public void checkAllOfThem(){
+    if(App.sum(null,null,null)==0) assertTrue(true);
+    
+}
+public void checkIndicesNull(){
+    int c=0;
+    ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1,2,3,4));
+    int k=App.sum(array,null,null);
+    if(c==k) assertTrue(true);
+}
+public void checkSize(){
+    ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1));
+    if(App.sum(array,1,2)==0) assertTrue(true);
+}
 }

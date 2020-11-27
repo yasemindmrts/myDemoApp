@@ -1,0 +1,26 @@
+<title>My application</title>
+  <h1>Addition of Two Numbers From An List</h1>
+  <br/>
+    This web site is to find sum of two numbers. <br/>
+    First box is for numbers which you want to write. Second and third box are for indices. <br/>
+    <br/>
+    Example:<br/>
+    First Box: 1 2 3 4 5 <br/>
+    Second Box: 1 <br/>
+    Third Box: 2 <br/>
+    Result is 3. <br/>
+    <br/>
+    *Indices must start from 1. <br/>
+    *First box can't be empty. Otherwise,result is 0. <br/>
+    *First box must contain numbers greater than zero. Otherwise, result is 0. <br/>
+    *Indices can't be negative or zero or null.Otherwise, result is 0. <br/>
+    *First box must contain at least 2 numbers. Otherwise, result is 0.<br/>
+  <form action="compute" method="post">
+        <textarea name="input1" rows="10" cols="30"></textarea>
+        <textarea name="input2" rows="1" cols="30"></textarea>
+        <textarea name="input3" rows="1" cols="30"></textarea>
+        <br>
+        <input type="submit">
+  </form>
+  <br/>
+   Result is {{result}} <br/>
